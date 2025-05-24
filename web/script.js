@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 
     try {
         // 监听登录表单提交事件
-        const response = await fetch('http://localhost:5000/api/login', {
+        const response = await fetch('https://flask-api-8etj.onrender.com/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
